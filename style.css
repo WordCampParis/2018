@@ -8,11 +8,11 @@
 	background-color: #fff;
 }
 
-.custom-logo-link {
+.colors-custom .custom-logo-link {
 	padding-right: 0;
 }
 
-.site-branding-text {
+.colors-custom .site-branding-text {
 	margin-top: 1em;
 	float: right;
 }
@@ -22,39 +22,39 @@
 	color: #bb2458;
 }
 
-.site-branding-text .site-description {
+.colors-custom .site-branding-text .site-description {
 	font-weight: bolder;
 	text-align: center;
 }
 
-.site-header .navigation-top,
-.site-header .main-navigation #top-menu {
+.colors-custom .navigation-top,
+.colors-custom .navigation-top #top-menu {
 	background-color: #144f8f;
 }
 
-.site-header .main-navigation #top-menu li {
+.colors-custom .main-navigation #top-menu li {
 	border-color: #fff;
 }
 
-.site-header .main-navigation #top-menu li > a,
-.site-header .main-navigation .menu-toggle {
+.colors-custom .main-navigation #top-menu li > a,
+.colors-custom .main-navigation .menu-toggle {
 	color: #fff;
 }
 
-.site-header .main-navigation .menu-toggle:focus {
+.colors-custom .main-navigation .menu-toggle:focus {
 	outline: none;
 }
 
-.site-header .main-navigation ul ul {
+.colors-custom .main-navigation ul ul {
 	border-color: #144f8f;
 }
 
-.site-header .main-navigation #top-menu li li a {
+.colors-custom .main-navigation #top-menu li li a {
 	color: #144f8f;
 	border-color: #fff;
 }
 
-.site-header .main-navigation #top-menu li li:hover {
+.colors-custom .main-navigation #top-menu li li:hover {
 	background-color: #fff;
 }
 
@@ -65,30 +65,30 @@
 	color: #bb2458;
 }
 
-.main-navigation #top-menu li.last {
+.colors-custom .main-navigation #top-menu li.last {
 	background-repeat: no-repeat;
 	background-position: 1px 45%;
 	background-image: url('https://2018.paris.wordcamp.org/files/2017/08/tickets.png');
 }
 
-.site-header .main-navigation #top-menu li.last > a {
+.colors-custom .main-navigation #top-menu li.last > a {
 	margin-left: 24px;
 	background-color: transparent;
 }
 
 @media screen and (min-width: 48em) {
-	.main-navigation #top-menu li.last {
+	.colors-custom .main-navigation #top-menu li.last {
 		float: right;
 		border-bottom: solid;
 		border-color: #FFF;
 	}
-	.site-header .main-navigation #top-menu li.last > a {
+	.colors-custom .main-navigation #top-menu li.last > a {
 		margin-left: 12px;
 		background-color: transparent;
 	}
 }
 
-.entry-content a.button {
+.colors-custom .entry-content a.button {
 	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
 	font-size: 15px;
 	font-size: .9375rem;
@@ -113,30 +113,30 @@
 	transition: background .2s;
 }
 
-.entry-content a.button:hover {
+.colors-custom .entry-content a.button:hover {
 	color: hsl(220,50%,100%);
 	background: hsl(220,50%,46%);
 	box-shadow: none !important;
 }
 
-.footer-widget-2 .widget {
+.colors-custom .footer-widget-2 .widget {
 	width: 48%;
 	float: left;
 }
 
-.wcorg-organizer-description img.avatar {
+.colors-custom .wcorg-organizer-description img.avatar {
 	float: left;
 	margin: 0 1em 1em 0;
 }
 
-.wcorg-organizer:not(:last-child) {
+.colors-custom .wcorg-organizer:not(:last-child) {
 	border-bottom: solid 1px #bb2458;
 }
 
-.wcorg-organizer {
+.colors-custom .wcorg-organizer {
 	padding-top: 1em;
 }
 
-h2.wccsp-dates {
+.colors-custom h2.wccsp-dates {
 	visibility: hidden;
 }
