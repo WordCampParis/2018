@@ -27,3 +27,10 @@ vagrant up --provision
 - Retrait de tous les widgets de la sidebar,
 - Utilisation d'un menu social,
 - Utilisation d'un menu principal.
+
+## Mise en place de la Remote CSS
+
+- Depuis le menu "Apparence" de l'administration du site, activer le sous-menu "Remote CSS".
+- Coller le lien vers le style.css du repo: `https://api.github.com/repos/WordCampParis/2018/contents/style.css`
+- Laisser l'option sur "Add-on".
+- Cliquer sur le bouton "Update" (répéter ce click à chaque édition du fichier style.css du repository 2018).
