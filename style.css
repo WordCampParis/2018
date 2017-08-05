@@ -27,8 +27,8 @@
 	text-align: center;
 }
 
-.colors-custom .navigation-top,
-.colors-custom .navigation-top #top-menu {
+.colors-custom .site-header .navigation-top,
+.colors-custom .site-header .navigation-top #top-menu {
 	background-color: #144f8f;
 }
 
