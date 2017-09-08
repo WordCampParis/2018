@@ -5,15 +5,15 @@
 * Logo
 * Wapuu parisien
 * Élements de communication print
- * Badges/programme
- * Signalétique
+  * Badges/programme
+  * Signalétique
 * Élements de communication web
- * Bannière WordCamp Central
- * Styles CSS 
- * Images du site
+  * Bannière WordCamp Central
+  * Styles CSS 
+  * Images du site
 * Goodies
- * T-shirt du WordCamp
- * T-shirt du staff
- * Casquette du staff
+  * T-shirt du WordCamp
+  * T-shirt du staff
+  * Casquette du staff
 * Vidéo
- * Habillage Opening/Closing remarks
+  * Habillage Opening/Closing remarks
