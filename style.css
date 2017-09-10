@@ -4,17 +4,28 @@
  * Thème utilisé: TwentySeventeen
  */
  
-.colors-custom .site-header {
+.colors-custom #masthead.site-header,
+.colors-custom .single-featured-image-header {
 	background-color: #fff;
 }
 
 .colors-custom .custom-logo-link {
 	padding-right: 0;
+	display: block;
+	width: 100%;
+}
+
+.colors-custom .custom-logo-link img {
+	display: block;
+	max-height: 80px;
+	width: auto;
+	margin: 0 auto;
 }
 
 .colors-custom .site-branding-text {
 	margin-top: 1em;
-	float: right;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .colors-custom .site-branding-text .site-title a {
@@ -82,9 +93,20 @@
 		border-bottom: solid;
 		border-color: #FFF;
 	}
+
 	.colors-custom .main-navigation #top-menu li.last > a {
 		margin-left: 12px;
 		background-color: transparent;
+	}
+
+	.colors-custom .custom-logo-link,
+	.colors-custom .custom-logo-link {
+		display: inline-block;
+		width: auto;
+	}
+
+	.colors-custom .site-branding-text {
+		float: right;
 	}
 }
 
