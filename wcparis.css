@@ -3,6 +3,286 @@
  *
  * Thème utilisé: TwentySeventeen
  */
+
+ 
+/* Override */
+
+ 
+body,
+button,
+input,
+select,
+textarea,
+h1, h2, h3, h4, h5, h6,
+.site-title,
+#top-menu li {
+	font-family: 'Miriam Libre', sans-serif;
+}
+
+p, li {
+	font-family: 'Asap', sans-serif; 
+}
+
+
+/* Header */
+
+	@keyframes pulse {
+	  from {
+		  opacity: .9;
+		  transform: scale(1);
+	  }
+	
+	  50% {
+		  opacity: 1;
+		  transform: scale(1.02);
+	  }
+	
+	  to {
+		  opacity: .9;
+		  transform: scale(1);
+	  }
+	}
+
+
+.custom-logo-link img {
+	max-height: 250px;
+	height: 100px;
+	width: 100px;
+}
+
+.home .site-branding .wrap,
+.home.has-header-image.twentyseventeen-front-page .site-branding {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+.home .site-branding .wrap {
+	padding: 0;
+}
+@media screen and (min-width: 48em) {
+	.home .site-branding .wrap,
+	.home.has-header-image.twentyseventeen-front-page .site-branding {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+	}
+	.custom-logo-link img {
+		max-height: 250px;
+		height: 250px;
+		width: 250px;
+	}
+}
+
+.home .custom-logo-link {
+	display: block;
+	width: 300px;
+	height: 300px;
+	padding: 0;
+	margin: 0;
+	
+	animation: pulse 4s;
+	
+	background: url(https://2018.paris.wordcamp.org/files/2017/10/wcparis18-icon-1000px.png) 0 0 no-repeat;
+	background-size: cover;
+}
+@media screen and (min-width: 48em) {
+	.home .custom-logo-link {
+		width: 360px;
+		height: 360px;
+	}
+}
+@media screen and (min-width: 74em) {
+	.home .custom-logo-link {
+		width: 500px;
+		height: 500px;
+	}
+}
+
+.home .custom-logo-link,
+.site-description,
+.site-title {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.site-branding {
+	padding: 1em 0;
+}
+
+.site-branding-text {
+	margin: 0 !important;
+	float: none !important;
+}
+.site-title {
+	display: block;
+	width: 150px;
+	height: 70px; 
+	
+	background: url(https://2018.paris.wordcamp.org/files/2017/10/wcparis18-header-title.png) 0 0 no-repeat;
+	background-size: cover;
+}
+.home .site-title {
+	width: 215px;
+	height: 100px; 
+}
+.site-description {
+	position: absolute;
+	width: 1px; height: 1px;
+}
+
+.home.has-header-image.twentyseventeen-front-page .site-branding {
+	bottom: auto;
+	top: 0;
+	height: 80vh;
+}
+
+
+@media screen and (min-width: 48em) {
+
+	.site-title {
+		width: 215px;
+		height: 100px; 
+	}
+	.site-branding-text {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.home.has-header-image.twentyseventeen-front-page .site-branding {
+		height: 100vh;
+	}
+
+}
+@media screen and (min-width: 74em) {
+	.home .site-title {
+		width: 300px;
+		height: 140px; 
+	}	
+}
+
+
+/* Dots */
+
+@media screen and (min-width: 74em) {
+
+	.home .site-branding .wrap::before,
+	.home .site-branding .wrap::after,
+	.home .site-branding-text::before {
+		content: '';
+		display: block;
+		
+		position: absolute;
+	}
+	
+	.home .site-branding .wrap::before {
+		width: 445px; 
+		height: 395px;
+		background: url(https://2018.paris.wordcamp.org/files/2017/10/wcparis2018-header-dots1.png) 0 0 no-repeat;
+		background-size: cover;
+	
+	    top: 80px;
+	    left: -375px;
+		
+		animation: rotate-dots1 3s linear;
+	}
+	
+	.home .site-branding .wrap::after {
+		width: 200px; 
+		height: 215px;
+		background: url(https://2018.paris.wordcamp.org/files/2017/10/wcparis2018-header-dots2.png) 0 0 no-repeat;
+		background-size: cover;
+	
+	    top: 400px;
+		left: 440px;
+		
+		animation: rotate-dots2 3s linear;
+	}
+	
+	.home .site-branding-text::before {
+		width: 308px; 
+		height: 250px;
+		background: url(https://2018.paris.wordcamp.org/files/2017/10/wcparis2018-header-dots3.png) 0 0 no-repeat;
+		background-size: cover;
+	
+	    top: -270px;
+		left: 0;
+		
+		animation: rotate-dots3 3s linear;
+	}
+	
+	
+	
+	@keyframes rotate-dots1 {
+	  from {
+	    transform: rotate(0) scale(2);
+	    opacity: 0;
+	    top: 10%;
+	    left: -150%;
+	  }
+	
+	  to {
+	    transform: rotate(359deg) scale(1);
+	    opacity: 1;
+	    top: 80px;
+	    left: -375px;
+	  }
+	}
+	@keyframes rotate-dots2 {
+	  from {
+	    transform: rotate(0) scale(3);
+	    opacity: 0;
+	    top: 200%;
+	    left: 200%;
+	  }
+	
+	  to {
+	    transform: rotate(-359deg) scale(1);
+	    opacity: 1;
+	    top: 400px;
+		left: 440px;
+	  }
+	}
+	@keyframes rotate-dots3 {
+	  from {
+	    transform: rotate(0) scale(3);
+	    opacity: 0;
+	    top: 0;
+	    left: 300%;
+	  }
+	
+	  to {
+	    transform: rotate(359deg) scale(1);
+	    opacity: 1;
+	    top: -270px;
+		left: 0;
+	  }
+	}
+
+
+}
+
+
+
+
+/* Custom */
+
+.site-branding a:hover, .site-branding a:focus {
+	opacity: .9;
+}
  
 .colors-custom .site-header {
 	background-color: #fff;
@@ -14,7 +294,7 @@
 
 .colors-custom .site-branding-text {
 	margin-top: 1em;
-	float: right;
+	float: none;
 }
 
 .colors-custom .site-branding-text .site-title a {
@@ -89,7 +369,7 @@
 }
 
 .colors-custom .entry-content a.button {
-	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+/* 	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif; */
 	font-size: 15px;
 	font-size: .9375rem;
 	font-weight: 400;
@@ -119,6 +399,9 @@
 	box-shadow: none !important;
 }
 
+.colors-custom .footer-widget-2 section:first-child {
+	padding-right: 1em;	
+}
 .colors-custom .footer-widget-2 .widget {
 	width: 48%;
 	float: left;
