@@ -1,0 +1,142 @@
+/**
+ * Styles utilisés sur le site 2018.
+ *
+ * Thème utilisé: TwentySeventeen
+ */
+ 
+.colors-custom .site-header {
+	background-color: #fff;
+}
+
+.colors-custom .custom-logo-link {
+	padding-right: 0;
+}
+
+.colors-custom .site-branding-text {
+	margin-top: 1em;
+	float: right;
+}
+
+.colors-custom .site-branding-text .site-title a {
+	text-transform: none;
+	color: #bb2458;
+}
+
+.colors-custom .site-branding-text .site-description {
+	font-weight: bolder;
+	text-align: center;
+}
+
+.colors-custom .site-header .navigation-top,
+.colors-custom .site-header .navigation-top #top-menu {
+	background-color: #144f8f;
+}
+
+.colors-custom .main-navigation #top-menu li {
+	border-color: #fff;
+}
+
+.colors-custom .main-navigation #top-menu li > a,
+.colors-custom .main-navigation .menu-toggle {
+	color: #fff;
+}
+
+.colors-custom .main-navigation .menu-toggle:focus {
+	outline: none;
+}
+
+.colors-custom .main-navigation ul ul {
+	border-color: #144f8f;
+}
+
+.colors-custom .main-navigation #top-menu li li a {
+	color: #144f8f;
+	border-color: #fff;
+}
+
+.colors-custom .main-navigation #top-menu li li:hover {
+	background-color: #fff;
+}
+
+.colors-custom .page .panel-content h2.entry-title,
+.colors-custom h1.entry-title,
+.colors-custom.page:not(.twentyseventeen-front-page) .entry-title,
+.colors-custom .page-title {
+	color: #bb2458;
+}
+
+.colors-custom .main-navigation #top-menu li.last {
+	background-repeat: no-repeat;
+	background-position: 1px 45%;
+	background-image: url('https://2018.paris.wordcamp.org/files/2017/08/tickets.png');
+}
+
+.colors-custom .main-navigation #top-menu li.last > a {
+	margin-left: 24px;
+	background-color: transparent;
+}
+
+@media screen and (min-width: 48em) {
+	.colors-custom .main-navigation #top-menu li.last {
+		float: right;
+		border-bottom: solid;
+		border-color: #FFF;
+	}
+	.colors-custom .main-navigation #top-menu li.last > a {
+		margin-left: 12px;
+		background-color: transparent;
+	}
+}
+
+.colors-custom .entry-content a.button {
+	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+	font-size: 15px;
+	font-size: .9375rem;
+	font-weight: 400;
+	line-height: 1.66;
+	background-color: hsl(220,50%,13%);
+	border: 0;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: hsl(220,50%,100%);
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	font-size: .875rem;
+	font-weight: 800;
+	line-height: 1;
+	padding: 1em 2em;
+	text-shadow: none;
+	-webkit-transition: background .2s;
+	transition: background .2s;
+}
+
+.colors-custom .entry-content a.button:hover {
+	color: hsl(220,50%,100%);
+	background: hsl(220,50%,46%);
+	box-shadow: none !important;
+}
+
+.colors-custom .footer-widget-2 .widget {
+	width: 48%;
+	float: left;
+}
+
+.colors-custom .wcorg-organizer-description img.avatar {
+	float: left;
+	margin: 0 1em 1em 0;
+}
+
+.colors-custom .wcorg-organizer:not(:last-child) {
+	border-bottom: solid 1px #bb2458;
+}
+
+.colors-custom .wcorg-organizer {
+	padding-top: 1em;
+}
+
+.colors-custom h2.wccsp-dates {
+	visibility: hidden;
+}
