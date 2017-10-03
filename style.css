@@ -17,7 +17,7 @@
 
 .colors-custom .custom-logo-link img {
 	display: block;
-	max-height: 80px;
+	max-height: 250px;
 	width: auto;
 	margin: 0 auto;
 }
@@ -106,6 +106,7 @@
 	}
 
 	.colors-custom .site-branding-text {
+		margin-top: 100px;
 		float: right;
 	}
 }
