@@ -18,11 +18,21 @@ h1, h2, h3, h4, h5, h6,
 #top-menu li {
 	font-family: 'Miriam Libre', sans-serif;
 }
+h1, h2, h3, h4, h5, h6,
+#top-menu li {
+	font-weight: 700 !important;
+}
+h1 {
+	text-transform: uppercase;
+}
 
 p, li {
 	font-family: 'Asap', sans-serif; 
 }
 
+.navigation-top {
+	font-size: .95rem;
+}
 
 /* Header */
 
@@ -70,20 +80,6 @@ p, li {
 .home .site-branding .wrap {
 	padding: 0;
 }
-@media screen and (min-width: 48em) {
-	.home .site-branding .wrap,
-	.home.has-header-image.twentyseventeen-front-page .site-branding {
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: row;
-		flex-direction: row;
-	}
-	.custom-logo-link img {
-		max-height: 250px;
-		height: 250px;
-		width: 250px;
-	}
-}
 
 .home .custom-logo-link {
 	display: block;
@@ -97,18 +93,7 @@ p, li {
 	background: url(https://2018.paris.wordcamp.org/files/2017/10/wcparis18-icon-1000px.png) 0 0 no-repeat;
 	background-size: cover;
 }
-@media screen and (min-width: 48em) {
-	.home .custom-logo-link {
-		width: 360px;
-		height: 360px;
-	}
-}
-@media screen and (min-width: 74em) {
-	.home .custom-logo-link {
-		width: 500px;
-		height: 500px;
-	}
-}
+
 
 .home .custom-logo-link,
 .site-description,
@@ -120,6 +105,7 @@ p, li {
 
 .site-branding {
 	padding: 1em 0;
+	overflow: hidden;
 }
 
 .site-branding-text {
@@ -152,6 +138,29 @@ p, li {
 
 @media screen and (min-width: 48em) {
 
+	.home .site-branding .wrap,
+	.home.has-header-image.twentyseventeen-front-page .site-branding {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+	}
+
+	.home .site-branding {
+		padding-bottom: 77px;
+	}
+
+	.home .custom-logo-link {
+		width: 330px;
+		height: 330px;
+	}
+
+	.custom-logo-link img {
+		max-height: 250px;
+		height: 250px;
+		width: 250px;
+	}
+
 	.site-title {
 		width: 215px;
 		height: 100px; 
@@ -163,7 +172,7 @@ p, li {
 		
 	}
 	.home .site-branding-text {
-		left: 360px;
+		left: 328px;
 	}
 
 	.home.has-header-image.twentyseventeen-front-page .site-branding {
@@ -171,6 +180,17 @@ p, li {
 	}
 
 }
+
+@media screen and (min-width: 60em) {
+	.home .custom-logo-link {
+		width: 360px;
+		height: 360px;
+	}
+	.home .site-branding-text {
+		left: 360px;
+	}
+}
+
 @media screen and (min-width: 74em) {
 	.home .site-title {
 		width: 300px;
@@ -179,10 +199,20 @@ p, li {
 	.home .site-branding-text {
 		left: 500px;
 	}	
+
+	.home .custom-logo-link {
+		width: 500px;
+		height: 500px;
+	}
+
 }
 
 
+
+
 /* Dots */
+
+
 
 @media screen and (min-width: 74em) {
 
