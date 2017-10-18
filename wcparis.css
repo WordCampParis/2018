@@ -4,6 +4,8 @@
  * Thème utilisé: TwentySeventeen
  */
 
+
+/* Pink: #bb2458 */
  
 /* Override */
 
@@ -32,6 +34,22 @@ p, li {
 
 .navigation-top {
 	font-size: .95rem;
+}
+.navigation-top .wrap {
+	padding: .75em;
+}
+@media screen and (min-width: 60em) {
+	.navigation-top .wrap {
+		padding: .75em 2em;
+	}	
+}
+
+.twentyseventeen-front-page .panel-content .recent-posts article,
+.blog .site-main > article, 
+.archive .site-main > article, .search .site-main > article {
+	border-bottom: #bb2458 1px dotted;
+	padding-bottom: 1.5em;
+	margin-bottom: 3em;
 }
 
 /* Header */
@@ -375,12 +393,29 @@ p, li {
 	background-color: #fff;
 }
 
+.colors-custom .navigation-top .menu-scroll-down {
+	color: #fff !important;
+}
+
+/* TITLES */
+
 .colors-custom .page .panel-content h2.entry-title,
 .colors-custom h1.entry-title,
+.colors-custom h1.page-title,
 .colors-custom.page:not(.twentyseventeen-front-page) .entry-title,
 .colors-custom .page-title {
-	color: #bb2458;
+	color: #bb2458 !important;
+	font-size: 1.8rem; 
 }
+
+.colors-custom h2 {
+	font-size: 1.4rem;
+}
+
+/* // TITLES */
+
+
+
 
 .colors-custom .main-navigation #top-menu li.last {
 	background-repeat: no-repeat;
@@ -398,6 +433,7 @@ p, li {
 		float: right;
 		border-bottom: solid;
 		border-color: #FFF;
+		margin-right: 1.6rem;
 	}
 	.colors-custom .main-navigation #top-menu li.last > a {
 		margin-left: 12px;
