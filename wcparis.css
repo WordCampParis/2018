@@ -496,3 +496,27 @@ p, li {
 .colors-custom h2.wccsp-dates {
 	visibility: hidden;
 }
+
+/* Makes sure the fixed main navigation menu won't hide part of the text */
+:target:before {
+	content: "";
+	display: block;
+	height: 120px;      /* fixed main navigation menu height */
+	margin: -120px 0 0; /* negative fixed main navigation menu height */
+}
+
+/* Hides English text by default */
+.en-text {
+	display: none;
+}
+
+/* Show it when the target is matching its id attributes */
+.en-text:target {
+	display: block;
+}
+
+
+/* Add a lighy shadow */
+.light-shadow{
+	box-shadow: rgba(195, 195, 195, 0.9) 2px 2px 10px;
+}
