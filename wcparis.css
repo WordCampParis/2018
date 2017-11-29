@@ -526,8 +526,8 @@ span.titi {
 	display: inline-block;
 	vertical-align: middle;
 	max-width: 100%;
-	min-width: 81px;
-	height: 61px;
+	min-width: 84px;
+	height: 62px;
 	margin: 0 0.5em;
 }
 
@@ -569,7 +569,7 @@ span.titi.smiley {
 
 span.titi.mini {
 	max-width: 50%;
-	min-width: 40.5px;
-	height: 30.5px;
+	min-width: 42px;
+	height: 31px;
 	background-size: contain;
 }
