@@ -520,3 +520,56 @@ p, li {
 .light-shadow{
 	box-shadow: rgba(195, 195, 195, 0.9) 2px 2px 10px;
 }
+
+/* Titi smileys ! */
+span.titi {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 100%;
+	min-width: 84px;
+	height: 62px;
+	margin: 0 0.5em;
+}
+
+span.titi.blush {
+	background: url( 'https://2018.paris.wordcamp.org/files/2017/11/blush.png' ) no-repeat;
+}
+
+span.titi.crying {
+	background: url( 'https://2018.paris.wordcamp.org/files/2017/11/crying.png' ) no-repeat;
+}
+
+span.titi.disappointed {
+	background: url( 'https://2018.paris.wordcamp.org/files/2017/11/disappointed.png' ) no-repeat;
+}
+
+span.titi.grin {
+	background: url( 'https://2018.paris.wordcamp.org/files/2017/11/grin.png' ) no-repeat;
+}
+
+span.titi.love {
+	background: url( 'https://2018.paris.wordcamp.org/files/2017/11/love.png' ) no-repeat;
+}
+
+span.titi.neutral {
+	background: url( 'https://2018.paris.wordcamp.org/files/2017/11/neutral.png' ) no-repeat;
+}
+
+span.titi.sad {
+	background: url( 'https://2018.paris.wordcamp.org/files/2017/11/sad.png' ) no-repeat;
+}
+
+span.titi.smile {
+	background: url( 'https://2018.paris.wordcamp.org/files/2017/11/smile.png' ) no-repeat;
+}
+
+span.titi.smiley {
+	background: url( 'https://2018.paris.wordcamp.org/files/2017/11/smiley.png' ) no-repeat;
+}
+
+span.titi.mini {
+	max-width: 50%;
+	min-width: 42px;
+	height: 31px;
+	background-size: contain;
+}
