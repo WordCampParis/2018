@@ -573,3 +573,8 @@ span.titi.mini {
 	height: 31px;
 	background-size: contain;
 }
+
+/* Sponsors */
+body.single-wcb_sponsor.wcb_sponsor-slug-o2switch .single-featured-image-header {
+    background-color: #282827;
+}
