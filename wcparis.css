@@ -582,3 +582,8 @@ body.single-wcb_sponsor .single-featured-image-header {
 body.single-wcb_sponsor.wcb_sponsor-slug-o2switch .single-featured-image-header {
 	background-color: #282827;
 }
+
+/* Attendees */
+#tix-attendees a.tix-field.tix-attendee-twitter {
+	box-shadow: none;
+}
