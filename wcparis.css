@@ -587,3 +587,27 @@ body.single-wcb_sponsor.wcb_sponsor-slug-o2switch .single-featured-image-header 
 #tix-attendees a.tix-field.tix-attendee-twitter {
 	box-shadow: none;
 }
+
+/* Schedule */
+body.page-slug-programme.page-two-column:not(.archive) #primary .entry-header,
+body.page-slug-programme.page-two-column:not(.archive) #primary .entry-content {
+	float: none;
+	width: auto;
+}
+
+body.page-slug-programme .email-form,
+body.page-slug-programme .wcb-session-favourite-icon {
+	display: none;
+}
+
+body.page-slug-programme .entry-content a.wcpt-session-title {
+    display: inline-block;
+    color:#bb2458;
+    font-size: 1.2em;
+    margin-bottom: 0.5em
+}
+
+body.page-slug-programme .entry-content .wcpt-session-speakers a {
+    display: block;
+    box-shadow: none;
+}
