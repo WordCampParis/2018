@@ -423,6 +423,18 @@ p, li {
 	background-image: url('https://2018.paris.wordcamp.org/files/2017/08/tickets.png');
 }
 
+.colors-custom .main-navigation #top-menu li.boussole {
+	background-repeat: no-repeat;
+	background-position: 1px 45%;
+	background-image: url('https://2018.paris.wordcamp.org/files/2018/01/boussole.png');
+}
+
+.colors-custom .main-navigation #top-menu li.programme {
+	background-repeat: no-repeat;
+	background-position: 1px 45%;
+	background-image: url('https://2018.paris.wordcamp.org/files/2018/01/programme.png');
+}
+
 .colors-custom .main-navigation #top-menu li.last > a {
 	margin-left: 24px;
 	background-color: transparent;
