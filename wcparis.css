@@ -601,15 +601,18 @@ body.page-slug-programme .wcb-session-favourite-icon {
 }
 
 body.page-slug-programme .entry-content a.wcpt-session-title {
-    display: inline-block;
-    color:#bb2458;
-    font-size: 1.2em;
-    margin-bottom: 0.5em
+	display: inline-block;
+	color:#bb2458;
+	font-size: 1.2em;
+	margin-bottom: 0.5em
+}
+
+body.page-slug-programme .entry-content .wcpt-session-speakers {
+	display: block;
 }
 
 body.page-slug-programme .entry-content .wcpt-session-speakers a {
-    display: block;
-    box-shadow: none;
+	box-shadow: none;
 }
 
 body.page-slug-programme .entry-content table tr.pause,
