@@ -435,6 +435,12 @@ p, li {
 	background-image: url('https://2018.paris.wordcamp.org/files/2018/01/programme.png');
 }
 
+.colors-custom .main-navigation #top-menu li.programme a,
+.colors-custom .main-navigation #top-menu li.boussole a {
+	margin-left: 10px;
+}
+
+
 .colors-custom .main-navigation #top-menu li.last > a {
 	margin-left: 24px;
 	background-color: transparent;
