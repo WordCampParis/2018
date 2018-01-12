@@ -612,12 +612,12 @@ body.page-slug-programme .entry-content .wcpt-session-speakers a {
     box-shadow: none;
 }
 
-body.page-slug-programme .entry-content table tr.pause
+body.page-slug-programme .entry-content table tr.pause,
 body.page-slug-programme .entry-content table tr.djeuner {
 	background-color: hsl( 214, 50%, 93% );
 }
 
-body.page-slug-programme .entry-content table tr.pause td
+body.page-slug-programme .entry-content table tr.pause td,
 body.page-slug-programme .entry-content table tr.djeuner td {
 	padding: 1em 0;
 }
