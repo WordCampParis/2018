@@ -435,13 +435,10 @@ p, li {
 	background-image: url('https://2018.paris.wordcamp.org/files/2018/01/programme.png');
 }
 
+
+.colors-custom .main-navigation #top-menu li.last > a,
 .colors-custom .main-navigation #top-menu li.programme a,
 .colors-custom .main-navigation #top-menu li.boussole a {
-	margin-left: 10px;
-}
-
-
-.colors-custom .main-navigation #top-menu li.last > a {
 	margin-left: 24px;
 	background-color: transparent;
 }
@@ -453,7 +450,9 @@ p, li {
 		border-color: #FFF;
 		margin-right: 1.6rem;
 	}
-	.colors-custom .main-navigation #top-menu li.last > a {
+	.colors-custom .main-navigation #top-menu li.last > a,
+	.colors-custom .main-navigation #top-menu li.programme a,
+	.colors-custom .main-navigation #top-menu li.boussole a {
 		margin-left: 12px;
 		background-color: transparent;
 	}
@@ -641,4 +640,9 @@ body.page-slug-programme .entry-content table tr.djeuner {
 body.page-slug-programme .entry-content table tr.pause td,
 body.page-slug-programme .entry-content table tr.djeuner td {
 	padding: 1em 0;
+}
+
+/* Boussole */
+body.page-slug-la-boussole .single-featured-image-header {
+    display: none;
 }
