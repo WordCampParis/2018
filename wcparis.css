@@ -600,6 +600,10 @@ body.single-wcb_sponsor.wcb_sponsor-slug-o2switch .single-featured-image-header 
 	background-color: #282827;
 }
 
+body.single-wcb_sponsor.wcb_sponsor-slug-planethoster-host-your-world .single-featured-image-header {
+	background-color: #81bd41;
+}
+
 /* Attendees */
 #tix-attendees a.tix-field.tix-attendee-twitter {
 	box-shadow: none;
