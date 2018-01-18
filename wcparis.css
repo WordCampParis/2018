@@ -609,6 +609,19 @@ body.single-wcb_sponsor.wcb_sponsor-slug-planethoster-host-your-world .single-fe
 	box-shadow: none;
 }
 
+.tix-field.tix-indiquer-que-je-souhaite-revendre-mon-billet {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	overflow: hidden;
+	background: #bb2458;
+	border-radius: 50%;
+	margin-left: 40px !important;
+	margin-top: 18px;
+	display: inline-block;
+	color: #bb2458;
+}
+
 /* Schedule */
 body.page-slug-programme.page-two-column:not(.archive) #primary .entry-header,
 body.page-slug-programme.page-two-column:not(.archive) #primary .entry-content {
