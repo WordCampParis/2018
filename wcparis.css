@@ -6,10 +6,10 @@
 
 
 /* Pink: #bb2458 */
- 
+
 /* Override */
 
- 
+
 body,
 button,
 input,
@@ -29,7 +29,7 @@ h1 {
 }
 
 p, li {
-	font-family: 'Asap', sans-serif; 
+	font-family: 'Asap', sans-serif;
 }
 
 .navigation-top {
@@ -41,11 +41,11 @@ p, li {
 @media screen and (min-width: 60em) {
 	.navigation-top .wrap {
 		padding: .75em 2em;
-	}	
+	}
 }
 
 .twentyseventeen-front-page .panel-content .recent-posts article,
-.blog .site-main > article, 
+.blog .site-main > article,
 .archive .site-main > article, .search .site-main > article {
 	border-bottom: #bb2458 1px dotted;
 	padding-bottom: 1.5em;
@@ -59,12 +59,12 @@ p, li {
 		  opacity: .9;
 		  transform: scale(1);
 	  }
-	
+
 	  50% {
 		  opacity: 1;
 		  transform: scale(1.02);
 	  }
-	
+
 	  to {
 		  opacity: .9;
 		  transform: scale(1);
@@ -89,7 +89,7 @@ p, li {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	
+
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
@@ -105,9 +105,9 @@ p, li {
 	height: 300px;
 	padding: 0;
 	margin: 0;
-	
+
 	animation: pulse 4s;
-	
+
 	background: url(https://2018.paris.wordcamp.org/files/2017/10/wcparis18-icon-1000px.png) 0 0 no-repeat;
 	background-size: cover;
 }
@@ -133,14 +133,14 @@ p, li {
 .site-title {
 	display: block;
 	width: 150px;
-	height: 70px; 
-	
+	height: 70px;
+
 	background: url(https://2018.paris.wordcamp.org/files/2017/10/wcparis18-header-title.png) 0 0 no-repeat;
 	background-size: cover;
 }
 .home .site-title {
 	width: 215px;
-	height: 100px; 
+	height: 100px;
 }
 .site-description {
 	position: absolute;
@@ -181,13 +181,13 @@ p, li {
 
 	.site-title {
 		width: 215px;
-		height: 100px; 
+		height: 100px;
 	}
 	.site-branding-text {
 		position: absolute;
 		top: 50%;
 		transform: translateY(-50%);
-		
+
 	}
 	.home .site-branding-text {
 		left: 328px;
@@ -212,11 +212,11 @@ p, li {
 @media screen and (min-width: 74em) {
 	.home .site-title {
 		width: 300px;
-		height: 140px; 
+		height: 140px;
 	}
 	.home .site-branding-text {
 		left: 500px;
-	}	
+	}
 
 	.home .custom-logo-link {
 		width: 500px;
@@ -239,48 +239,48 @@ p, li {
 	.home .site-branding-text::before {
 		content: '';
 		display: block;
-		
+
 		position: absolute;
 	}
-	
+
 	.home .site-branding .wrap::before {
-		width: 445px; 
+		width: 445px;
 		height: 395px;
 		background: url(https://2018.paris.wordcamp.org/files/2017/10/wcparis2018-header-dots1.png) 0 0 no-repeat;
 		background-size: cover;
-	
+
 	    top: 80px;
 	    left: -375px;
-		
+
 		animation: rotate-dots1 3s linear;
 	}
-	
+
 	.home .site-branding .wrap::after {
-		width: 200px; 
+		width: 200px;
 		height: 215px;
 		background: url(https://2018.paris.wordcamp.org/files/2017/10/wcparis2018-header-dots2.png) 0 0 no-repeat;
 		background-size: cover;
-	
+
 	    top: 400px;
 		left: 440px;
-		
+
 		animation: rotate-dots2 3s linear;
 	}
-	
+
 	.home .site-branding-text::before {
-		width: 308px; 
+		width: 308px;
 		height: 250px;
 		background: url(https://2018.paris.wordcamp.org/files/2017/10/wcparis2018-header-dots3.png) 0 0 no-repeat;
 		background-size: cover;
-	
+
 	    top: -270px;
 		left: 0;
-		
+
 		animation: rotate-dots3 3s linear;
 	}
-	
-	
-	
+
+
+
 	@keyframes rotate-dots1 {
 	  from {
 	    transform: rotate(0) scale(2);
@@ -288,7 +288,7 @@ p, li {
 	    top: 10%;
 	    left: -150%;
 	  }
-	
+
 	  to {
 	    transform: rotate(359deg) scale(1);
 	    opacity: 1;
@@ -303,7 +303,7 @@ p, li {
 	    top: 200%;
 	    left: 200%;
 	  }
-	
+
 	  to {
 	    transform: rotate(-359deg) scale(1);
 	    opacity: 1;
@@ -318,7 +318,7 @@ p, li {
 	    top: 0;
 	    left: 300%;
 	  }
-	
+
 	  to {
 	    transform: rotate(359deg) scale(1);
 	    opacity: 1;
@@ -338,7 +338,7 @@ p, li {
 .site-branding a:hover, .site-branding a:focus {
 	opacity: .9;
 }
- 
+
 .colors-custom .site-header {
 	background-color: #fff;
 }
@@ -405,7 +405,7 @@ p, li {
 .colors-custom.page:not(.twentyseventeen-front-page) .entry-title,
 .colors-custom .page-title {
 	color: #bb2458 !important;
-	font-size: 1.8rem; 
+	font-size: 1.8rem;
 }
 
 .colors-custom h2 {
@@ -423,7 +423,22 @@ p, li {
 	background-image: url('https://2018.paris.wordcamp.org/files/2017/08/tickets.png');
 }
 
-.colors-custom .main-navigation #top-menu li.last > a {
+.colors-custom .main-navigation #top-menu li.boussole {
+	background-repeat: no-repeat;
+	background-position: 1px 45%;
+	background-image: url('https://2018.paris.wordcamp.org/files/2018/01/boussole.png');
+}
+
+.colors-custom .main-navigation #top-menu li.programme {
+	background-repeat: no-repeat;
+	background-position: 1px 45%;
+	background-image: url('https://2018.paris.wordcamp.org/files/2018/01/programme.png');
+}
+
+
+.colors-custom .main-navigation #top-menu li.last > a,
+.colors-custom .main-navigation #top-menu li.programme a,
+.colors-custom .main-navigation #top-menu li.boussole a {
 	margin-left: 24px;
 	background-color: transparent;
 }
@@ -435,7 +450,9 @@ p, li {
 		border-color: #FFF;
 		margin-right: 1.6rem;
 	}
-	.colors-custom .main-navigation #top-menu li.last > a {
+	.colors-custom .main-navigation #top-menu li.last > a,
+	.colors-custom .main-navigation #top-menu li.programme a,
+	.colors-custom .main-navigation #top-menu li.boussole a {
 		margin-left: 12px;
 		background-color: transparent;
 	}
@@ -473,7 +490,7 @@ p, li {
 }
 
 .colors-custom .footer-widget-2 section:first-child {
-	padding-right: 1em;	
+	padding-right: 1em;
 }
 .colors-custom .footer-widget-2 .widget {
 	width: 48%;
@@ -572,4 +589,77 @@ span.titi.mini {
 	min-width: 42px;
 	height: 31px;
 	background-size: contain;
+}
+
+/* Sponsors */
+body.single-wcb_sponsor .single-featured-image-header {
+	background-color: #FFF;
+}
+
+body.single-wcb_sponsor.wcb_sponsor-slug-o2switch .single-featured-image-header {
+	background-color: #282827;
+}
+
+body.single-wcb_sponsor.wcb_sponsor-slug-planethoster-host-your-world .single-featured-image-header {
+	background-color: #81bd41;
+}
+
+/* Attendees */
+#tix-attendees a.tix-field.tix-attendee-twitter {
+	box-shadow: none;
+}
+
+.tix-field.tix-indiquer-que-je-souhaite-revendre-mon-billet {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	overflow: hidden;
+	background: #bb2458;
+	border-radius: 50%;
+	margin-left: 40px !important;
+	margin-top: 18px;
+	display: inline-block;
+	color: #bb2458;
+}
+
+/* Schedule */
+body.page-slug-programme.page-two-column:not(.archive) #primary .entry-header,
+body.page-slug-programme.page-two-column:not(.archive) #primary .entry-content {
+	float: none;
+	width: auto;
+}
+
+body.page-slug-programme .email-form,
+body.page-slug-programme .wcb-session-favourite-icon {
+	display: none;
+}
+
+body.page-slug-programme .entry-content a.wcpt-session-title {
+	display: inline-block;
+	color:#bb2458;
+	font-size: 1.2em;
+	margin-bottom: 0.5em
+}
+
+body.page-slug-programme .entry-content .wcpt-session-speakers {
+	display: block;
+}
+
+body.page-slug-programme .entry-content .wcpt-session-speakers a {
+	box-shadow: none;
+}
+
+body.page-slug-programme .entry-content table tr.pause,
+body.page-slug-programme .entry-content table tr.djeuner {
+	background-color: hsl( 214, 50%, 93% );
+}
+
+body.page-slug-programme .entry-content table tr.pause td,
+body.page-slug-programme .entry-content table tr.djeuner td {
+	padding: 1em 0;
+}
+
+/* Boussole */
+body.page-slug-la-boussole .single-featured-image-header {
+    display: none;
 }
