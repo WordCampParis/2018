@@ -627,6 +627,48 @@ body.twentyseventeen-front-page article.twentyseventeen-panel.post-775 .wp-block
 	text-align: center;
 }
 
+body.page-slug-sponsors header.entry-header {
+	display: none;
+}
+
+body.page-slug-sponsors .entry-content h2 {
+	color: #bb2458 !important;
+	font-size: 1.8rem;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+}
+
+body.page-slug-sponsors .entry-content .wcorg-sponsor h3:first-child {
+	display: none;
+}
+
+body.page-slug-sponsors .entry-content .wcorg-sponsors > div {
+	border-bottom: #bb2458 1px dotted;
+	padding-bottom: 1.5em;
+	margin-bottom: 3em;
+}
+
+body.page-slug-sponsors .entry-content #tix-attendees .tix-field.tix-attendee-name,
+body.page-slug-sponsors .entry-content #tix-attendees .tix-field.tix-attendee-twitter{
+	display: none;
+}
+
+@media screen and (min-width: 48em) {
+	body.page-slug-sponsors #primary {
+		position: relative;
+	}
+
+	body.page-slug-sponsors .entry-content h2 {
+		position: absolute;
+		left: 0;
+	}
+
+	body.page-slug-sponsors .entry-content #tix-attendees {
+		margin: 0 0 0.75em;
+		padding: 1.5em 0 0;
+	}
+}
+
 /* Attendees */
 #tix-attendees a.tix-field.tix-attendee-twitter {
 	box-shadow: none;
