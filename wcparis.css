@@ -724,6 +724,16 @@ body.page-slug-programme .entry-content table tr.djeuner td {
 	padding: 1em 0;
 }
 
+body.page-slug-programme .wp-block-table a,
+body.page-slug-programme .wp-block-table a:hover {
+	color: #bb2458;
+	font-size: 1.2em;
+}
+
+body.page-slug-programme .wp-block-table tr:first-child td {
+	font-weight: bold;
+}
+
 /* Boussole */
 body.page-slug-la-boussole .single-featured-image-header {
     display: none;
