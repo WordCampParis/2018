@@ -604,6 +604,10 @@ body.single-wcb_sponsor.wcb_sponsor-slug-planethoster-host-your-world .single-fe
 	background-color: #81bd41;
 }
 
+body.single-wcb_sponsor.wcb_sponsor-slug-wpchef-formation .single-featured-image-header {
+	background-color: #2e889a;
+}
+
 body.twentyseventeen-front-page article.twentyseventeen-panel.post-775 .entry-header {
 	display: none;
 }
