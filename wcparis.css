@@ -604,6 +604,75 @@ body.single-wcb_sponsor.wcb_sponsor-slug-planethoster-host-your-world .single-fe
 	background-color: #81bd41;
 }
 
+body.single-wcb_sponsor.wcb_sponsor-slug-wpchef-formation .single-featured-image-header {
+	background-color: #2e889a;
+}
+
+body.twentyseventeen-front-page article.twentyseventeen-panel.post-775 .entry-header {
+	display: none;
+}
+
+body.twentyseventeen-front-page article.twentyseventeen-panel.post-775 .entry-content {
+	float: none!important;
+	width: auto!important;
+}
+
+body.twentyseventeen-front-page article.twentyseventeen-panel.post-775 .entry-content h2 {
+	color: #bb2458 !important;
+}
+
+@media screen and (min-width: 48em) {
+	body.twentyseventeen-front-page article.twentyseventeen-panel.post-775 .entry-content h2 {
+		font-size: 1.8rem;
+	}
+}
+
+body.twentyseventeen-front-page article.twentyseventeen-panel.post-775 .wp-block-column {
+	text-align: center;
+}
+
+body.page-slug-sponsors header.entry-header {
+	display: none;
+}
+
+body.page-slug-sponsors .entry-content h2 {
+	color: #bb2458 !important;
+	font-size: 1.8rem;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+}
+
+body.page-slug-sponsors .entry-content .wcorg-sponsor h3:first-child {
+	display: none;
+}
+
+body.page-slug-sponsors .entry-content .wcorg-sponsors > div {
+	border-bottom: #bb2458 1px dotted;
+	padding-bottom: 1.5em;
+	margin-bottom: 3em;
+}
+
+body.page-slug-sponsors .entry-content #tix-attendees .tix-field.tix-attendee-name,
+body.page-slug-sponsors .entry-content #tix-attendees .tix-field.tix-attendee-twitter{
+	display: none;
+}
+
+@media screen and (min-width: 48em) {
+	body.page-slug-sponsors #primary {
+		position: relative;
+	}
+
+	body.page-slug-sponsors .entry-content h2 {
+		position: absolute;
+		left: 0;
+	}
+
+	body.page-slug-sponsors .entry-content #tix-attendees {
+		margin: 0 0 0.75em;
+		padding: 1.5em 0 0;
+	}
+}
+
 /* Attendees */
 #tix-attendees a.tix-field.tix-attendee-twitter {
 	box-shadow: none;
@@ -657,6 +726,16 @@ body.page-slug-programme .entry-content table tr.djeuner {
 body.page-slug-programme .entry-content table tr.pause td,
 body.page-slug-programme .entry-content table tr.djeuner td {
 	padding: 1em 0;
+}
+
+body.page-slug-programme .wp-block-table a,
+body.page-slug-programme .wp-block-table a:hover {
+	color: #bb2458;
+	font-size: 1.2em;
+}
+
+body.page-slug-programme .wp-block-table tr:first-child td {
+	font-weight: bold;
 }
 
 /* Boussole */
