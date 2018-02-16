@@ -740,5 +740,22 @@ body.page-slug-programme .wp-block-table tr:first-child td {
 
 /* Boussole */
 body.page-slug-la-boussole .single-featured-image-header {
-    display: none;
+	display: none;
+}
+
+/* Billetterie */
+body.page-slug-billetterie div#tix-notices .tix-notice:before {
+	content: "La billetterie est épuisée.";
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	color: #222;
+	position: absolute;
+	top: 25%;
+	font-weight: bold;
+}
+body.page-slug-billetterie div#tix-notices .tix-notice {
+	position: relative;
+	color: lightYellow;
 }
