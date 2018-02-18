@@ -621,9 +621,25 @@ body.twentyseventeen-front-page article.twentyseventeen-panel.post-775 .entry-co
 	color: #bb2458 !important;
 }
 
+body.twentyseventeen-front-page article.twentyseventeen-panel.post-775 p.solo.sponsor-or img {
+    width: 154px;
+}
+
+body.twentyseventeen-front-page article.twentyseventeen-panel.post-775 p.solo.sponsor-bronze img {
+    width: 61px;
+}
+
 @media screen and (min-width: 48em) {
 	body.twentyseventeen-front-page article.twentyseventeen-panel.post-775 .entry-content h2 {
 		font-size: 1.8rem;
+	}
+
+	body.twentyseventeen-front-page article.twentyseventeen-panel.post-775 p.solo.sponsor-or img {
+		width: 300px;
+	}
+
+	body.twentyseventeen-front-page article.twentyseventeen-panel.post-775 p.solo.sponsor-bronze img {
+	    width: 202px;
 	}
 }
 
