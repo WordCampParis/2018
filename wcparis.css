@@ -675,7 +675,10 @@ body.page-slug-sponsors .entry-content .wcorg-sponsors > div {
 .wp-block-columns.has-3-columns.wcorg-sponsor-level-micro img {
 	box-shadow: none;
 	width: 80%;
-	vertical-align: middle;
+}
+
+.wp-block-columns.has-3-columns.wcorg-sponsor-level-micro {
+	align-items: center;
 }
 
 .wp-block-columns.has-3-columns.wcorg-sponsor-level-micro a,
