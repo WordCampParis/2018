@@ -672,9 +672,15 @@ body.page-slug-sponsors .entry-content .wcorg-sponsors > div {
 	margin-bottom: 3em;
 }
 
-body.page-slug-sponsors .entry-content #tix-attendees .tix-field.tix-attendee-name,
-body.page-slug-sponsors .entry-content #tix-attendees .tix-field.tix-attendee-twitter{
-	display: none;
+.wp-block-columns.has-3-columns.wcorg-sponsor-level-micro img {
+	box-shadow: none;
+	width: 80%;
+	vertical-align: middle;
+}
+
+.wp-block-columns.has-3-columns.wcorg-sponsor-level-micro a,
+.wp-block-columns.has-3-columns.wcorg-sponsor-level-micro a:hover {
+	box-shadow:none;
 }
 
 @media screen and (min-width: 48em) {
@@ -687,7 +693,7 @@ body.page-slug-sponsors .entry-content #tix-attendees .tix-field.tix-attendee-tw
 		left: 0;
 	}
 
-	body.page-slug-sponsors .entry-content #tix-attendees {
+	body.page-slug-sponsors .wp-block-columns.has-3-columns.wcorg-sponsor-level-micro {
 		margin: 0 0 0.75em;
 		padding: 1.5em 0 0;
 	}
