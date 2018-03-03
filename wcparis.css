@@ -435,11 +435,21 @@ p, li {
 	background-image: url('https://2018.paris.wordcamp.org/files/2018/01/programme.png');
 }
 
+.colors-custom .main-navigation #top-menu li.livestream {
+	background-repeat: no-repeat;
+	background-position: 5px 45%;
+	background-image: url('https://2018.paris.wordcamp.org/files/2018/03/streaming.png');
+}
 
 .colors-custom .main-navigation #top-menu li.last > a,
-.colors-custom .main-navigation #top-menu li.programme a,
-.colors-custom .main-navigation #top-menu li.boussole a {
+.colors-custom .main-navigation #top-menu li.boussole a,
+.colors-custom .main-navigation #top-menu li.programme a {
 	margin-left: 24px;
+	background-color: transparent;
+}
+
+li.livestream > a {
+	margin-left: 26px;
 	background-color: transparent;
 }
 
@@ -453,6 +463,16 @@ p, li {
 	.colors-custom .main-navigation #top-menu li.last > a,
 	.colors-custom .main-navigation #top-menu li.programme a,
 	.colors-custom .main-navigation #top-menu li.boussole a {
+		margin-left: 12px;
+		background-color: transparent;
+	}
+
+	.colors-custom .main-navigation #top-menu li.livestream {
+		float: right;
+		margin-right: 1.6rem;
+	}
+
+	.colors-custom .main-navigation #top-menu li.livestream > a {
 		margin-left: 12px;
 		background-color: transparent;
 	}
@@ -722,9 +742,16 @@ body.page-slug-sponsors .entry-content .wcorg-sponsors > div {
 
 /* Schedule */
 body.page-slug-programme.page-two-column:not(.archive) #primary .entry-header,
-body.page-slug-programme.page-two-column:not(.archive) #primary .entry-content {
+body.page-slug-programme.page-two-column:not(.archive) #primary .entry-content,
+body.page-slug-livestream.page-two-column:not(.archive) #primary .entry-header,
+body.page-slug-livestream.page-two-column:not(.archive) #primary .entry-content {
 	float: none;
 	width: auto;
+}
+
+body.page-slug-livestream.page-two-column:not(.archive) #primary .entry-content .layout-column-2 {
+	padding-top: 1em;
+	padding-left: 0.5em;
 }
 
 body.page-slug-programme .email-form,
@@ -784,6 +811,7 @@ body.page-slug-billetterie div#tix-notices .tix-notice:before {
 	top: 25%;
 	font-weight: bold;
 }
+
 body.page-slug-billetterie div#tix-notices .tix-notice {
 	position: relative;
 	color: lightYellow;
