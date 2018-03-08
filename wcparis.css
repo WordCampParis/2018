@@ -746,7 +746,7 @@ body.page-slug-programme.page-two-column:not(.archive) #primary .entry-content,
 body.page-slug-livestream.page-two-column:not(.archive) #primary .entry-header,
 body.page-slug-livestream.page-two-column:not(.archive) #primary .entry-content,
 body.page-slug-note-de-version.page-two-column:not(.archive) #primary .entry-header,
-body.page-slug-note-de-version.page-two-column:not(.archive) #primary .entry-content, {
+body.page-slug-note-de-version.page-two-column:not(.archive) #primary .entry-content {
 	float: none;
 	width: auto;
 }
