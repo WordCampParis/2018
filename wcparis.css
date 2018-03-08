@@ -744,7 +744,9 @@ body.page-slug-sponsors .entry-content .wcorg-sponsors > div {
 body.page-slug-programme.page-two-column:not(.archive) #primary .entry-header,
 body.page-slug-programme.page-two-column:not(.archive) #primary .entry-content,
 body.page-slug-livestream.page-two-column:not(.archive) #primary .entry-header,
-body.page-slug-livestream.page-two-column:not(.archive) #primary .entry-content {
+body.page-slug-livestream.page-two-column:not(.archive) #primary .entry-content,
+body.page-slug-note-de-version.page-two-column:not(.archive) #primary .entry-header,
+body.page-slug-note-de-version.page-two-column:not(.archive) #primary .entry-content, {
 	float: none;
 	width: auto;
 }
@@ -815,4 +817,102 @@ body.page-slug-billetterie div#tix-notices .tix-notice:before {
 body.page-slug-billetterie div#tix-notices .tix-notice {
 	position: relative;
 	color: lightYellow;
+}
+
+/* Note de version */
+.release-wapuu {
+	max-width:100%;
+	width: 100%;
+}
+
+.release-wapuu img {
+	max-height: 150px;
+}
+
+@media screen and (min-width: 48em) {
+	.release-intro {
+		width: 70%;
+	}
+
+	.release-intro:after {
+		clear: both;
+	}
+
+	.release-wapuu {
+		float: right;
+		width: 25%;
+	}
+}
+
+.nav-tab-wrapper {
+	border-bottom: 1px solid hsl(220,50%,46%);
+	margin: 0;
+    padding-top: 9px;
+    padding-bottom: 0;
+	line-height: inherit;
+	height: auto;
+}
+
+.nav-tab-wrapper li {
+	list-style: none;
+	display: inline-block;
+	padding-left: 15px;
+}
+
+.colors-custom .entry-content .nav-tab-wrapper li a,
+.colors-custom .entry-content .nav-tab-wrapper li a:hover {
+	box-shadow: none;
+	display: block;
+	padding: 1em;
+	font-size: 18px;
+	color: hsl(220,50%,46%);
+	border: 1px solid hsl(220,50%,46%);
+	background: #fff;
+	margin: -1px;
+	line-height: 24px;
+}
+
+.colors-custom .entry-content .nav-tab-wrapper li > a.current {
+	border-bottom-color:#fff;
+}
+
+.release-tab {
+	display: none;
+}
+
+.default-release-tab {
+	display:block
+}
+
+:target ~ .default-release-tab {
+	display: none;
+}
+
+#new:target ~ .new-tab,
+#props:target ~ .props-tab {
+  display: block;
+}
+
+.wp-block-cover-image,
+.colors-custom .entry-content p.props-intro {
+	margin: 1.5em 0;
+}
+
+.colors-custom .entry-content .wp-block-cover-image h2 {
+	line-height: 1.8em;
+	font-size: 1.6rem;
+}
+
+.colors-custom .entry-content .wp-block-cover-image h2 a {
+	color:#fff;
+	box-shadow: inset 0 0 0 rgba(255, 255, 255, 0), 0 3px 0 rgba(255, 255, 255, 1);
+}
+
+.colors-custom .entry-content .wp-block-columns h3 {
+	padding-top: 0;
+}
+
+.colors-custom .entry-content .wp-block-columns .layout-column-1,
+.colors-custom .entry-content .wp-block-columns .layout-column-2 {
+	padding-right: 1.5em;
 }
