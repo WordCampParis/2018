@@ -755,7 +755,8 @@ body.twentyseventeen-front-page.page-two-column:not(.archive) #post-1597 .entry-
 	width: auto;
 }
 
-body.page-slug-livestream.page-two-column:not(.archive) #primary .entry-content .layout-column-2 {
+body.page-slug-livestream.page-two-column:not(.archive) #primary .entry-content .layout-column-2,
+body.parent-pageid-4821.page-two-column:not(.archive) #primary .entry-content .layout-column-2 {
 	padding-top: 1em;
 	padding-left: 0.5em;
 }
