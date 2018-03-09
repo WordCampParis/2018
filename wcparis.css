@@ -916,3 +916,15 @@ body.page-slug-billetterie div#tix-notices .tix-notice {
 .colors-custom .entry-content .wp-block-columns .layout-column-2 {
 	padding-right: 1.5em;
 }
+
+.livestream-cover {
+	background-image: url('https://2018.paris.wordcamp.org/files/2018/03/16362806312_7acf0b1cf5_k.jpg');
+}
+
+.velotypie-cover {
+	background-image: url('https://2018.paris.wordcamp.org/files/2018/03/24212971358_e0f6cefbda_k.jpg');
+}
+
+.openbar-cover {
+	background-image: url('https://2018.paris.wordcamp.org/files/2018/03/36902079666_556e80b324_k.jpg');
+}
