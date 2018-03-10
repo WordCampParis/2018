@@ -935,6 +935,14 @@ body.page-slug-livestream.page-two-column:not(.archive) #primary .entry-content 
 	background-image: url('https://2018.paris.wordcamp.org/files/2018/03/36902079666_556e80b324_k.jpg');
 }
 
+.replay-conferences {
+	background-image: url('https://2018.paris.wordcamp.org/files/2018/03/replay-conferences.jpg');
+}
+
+.replay-ateliers {
+	background-image: url('https://2018.paris.wordcamp.org/files/2018/03/replay-ateliers.jpg');
+}
+
 .twentyseventeen-panel.post-1597 .panel-image {
 	display: none;
 }
